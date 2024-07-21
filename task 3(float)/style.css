@@ -1,0 +1,29 @@
+div.item{
+    background-color: aquamarine;
+    width: 25%;
+    float: left;
+}
+
+div.item img{
+    width: 100%;
+}
+
+
+p.sec1{
+ float: left;
+}
+p.sec2{
+ float: right;
+}
+
+.header{
+ align-content: center;
+ background-color: aquamarine;
+ width: 50%;
+ margin: auto;
+ text-align: center;
+}
+
+div.clear{
+    clear: both;
+}
