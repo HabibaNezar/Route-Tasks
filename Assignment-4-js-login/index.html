@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./cs/all.min.css">
+    <link rel="stylesheet" href="./cs/bootstrap.min.css">
+    <link rel="stylesheet" href="./cs/style.css">
+</head>
+<body>
+   
+    <div class="my-container">
+        <div class="signin-form form d-none">
+            <h1>Log In</h1>
+            <input type="text" placeholder="Enter your email" class="m-3 form-control" id="loginEmail">
+            <input type="text" placeholder="Enter yor password" class="m-3 form-control" id="loginPassword">
+            <p class="incorrect d-none text-danger m-2">incorrect email or password</p>
+            <button class="loginBtn m-3">Sign In</button>
+            <p>Don’t have an account? <a href="">sign up</a></p>
+        </div>
+        <div class="signup-form form d-flex">
+            <h1>Sign Up</h1>
+            <input type="text" placeholder="Enter your name" class="m-3 form-control" id="signupName">
+            <input type="text" placeholder="Enter your email" class="m-3 form-control" id="signupEmail">
+            <input type="text" placeholder="Enter password" class="m-3 form-control" id="signupPassword">
+            <p class="d-none m-2 success">success</p>
+            <button class="m-3 signupBtn">Sign UP</button>
+            <p>You have an account? <a class="go-to-signin">sign in</a></p>
+        </div>
+        <div class="my-home d-none">
+            <div class="navbar">
+                <h2 class="">Habob first login</h2>
+                <button class="logout">Log Out</button>
+            </div>
+            <div class="welcome-message">
+                <p>Welcome</p>
+            </div>
+        </div>
+    </div>
+    <script src="./my-js/index.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

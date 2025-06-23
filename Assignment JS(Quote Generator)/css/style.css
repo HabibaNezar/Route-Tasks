@@ -1,0 +1,63 @@
+div.home{
+    background-image: url(../images/bg.jpg);
+    height: 100vb;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+div.paragraph{
+    width: max-content;
+}
+
+div.paragraph h1{
+    font-size: 2rem;
+    font-weight: 800;
+    animation: fade 1s forwards;
+    opacity: 0;
+    animation-delay: 0.5s;
+}
+
+div.paragraph h4{
+    animation: fade 1s forwards;
+    opacity: 0;
+    animation-delay: 1s;
+}
+
+div.paragraph button{
+    width: max-content;
+    border: none;
+    background-color: #fca9b1;
+    color: white;
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 10px;
+    margin-block: 20px;
+    animation: fade 1s forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+        scale: 0;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+div.paragraph button:hover{
+    background-color: #fdbbc2;
+}
+
+div.paragraph p{
+    margin-top: 50px;
+    background-color: #94b3d2;
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
